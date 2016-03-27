@@ -79,3 +79,8 @@ $ run
 - If we take the number of signals n, as the basic counting unit, the number of states is usually around 2n + 1.
 - In the current scenario, for 4 signals we see 4 * 2 (amber states) + 1(standy state) = 9 states.
 - This suggests the high level running time (excluding library code) is liner in the number of signals - O(n)
+
+## Some Improvements
+- Treat TrafficState as an FSM Actor
+- Put traffic signal times into a config file
+- Move Signal actors into TrafficState ?
